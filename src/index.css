@@ -8,42 +8,41 @@
 /* BODY */
 body {
   font-family: 'Poppins', Arial, sans-serif;
-  background: linear-gradient(135deg, #ffa8a8, #ffffff);
-  color: #ffffff;
+  background: #0b0f1a;
+  color: #eaeaea;
 }
 
 /* HEADER */
 header {
-  background: linear-gradient(135deg, #d60404, #3a3a3a);
-  color: #ffffff;
+  background: #0f172a;
+  color: #ff4da6;
   padding: 20px;
   text-align: center;
-  border-radius: 0 0 15px 15px;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #1f2a44;
 }
 
 /* CARD */
 .card {
   max-width: 800px;
   margin: 30px auto;
-  background: rgb(145, 45, 45);
+  background: #111827;
   padding: 25px;
-  border-radius: 16px;
+  border-radius: 10px;
   text-align: center;
-  box-shadow: 0 10px 25px rgb(255, 255, 255);
-  transition: 0.3s;
+  border: 1px solid #1f2a44;
+  transition: 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-8px) scale(1.01);
-  box-shadow: 0 15px 35px rgb(255, 255, 255);
+  transform: translateY(-4px);
+  border-color: #3b82f6;
 }
 
 /* IMAGEM / VIDEO */
 .image,
 .video {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 15px 0;
 }
 
@@ -51,14 +50,14 @@ header {
 .explanation {
   text-align: justify;
   margin-top: 15px;
-  line-height: 1.7;
-  color: #ffffff;
+  line-height: 1.6;
+  color: #cbd5e1;
 }
 
 /* LOADING */
 .loader {
   text-align: center;
   margin: 50px;
-  font-size: 18px;
-  color: #ffffff;
+  font-size: 16px;
+  color: #94a3b8;
 }
